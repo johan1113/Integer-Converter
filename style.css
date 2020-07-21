@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.page_header {
+  background-color: #3C91E6;
+  padding-bottom: 10vh;
+  padding-top: 3vh;
+}
+
+.page_header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.converter {
+  width: 80vw;
+  height: 60vh;
+  margin: -8vh 0 0 10vw;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px #BDBDBD;
+          box-shadow: 0 0 10px #BDBDBD;
+  background-color: white;
+}
+
+.converter__header {
+  height: 13%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-style: none none solid none;
+  border-width: 2px;
+  border-color: #E0E0E0;
+}
+
+.converter__header div {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.converter__header__title {
+  width: 48%;
+}
+
+.converter__header__arrow {
+  width: 4%;
+}
+
+.converter__header__arrow img {
+  height: 30%;
+}
+
+.converter__header #input {
+  color: #3C91E6;
+}
+
+.converter__header #output {
+  color: #363537;
+}
+
+.converter__container {
+  height: 87%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.converter__container div {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.converter__container__input input {
+  width: 90%;
+  height: 90%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+}
+
+.converter__container__output {
+  background-color: #F2F2F2;
+}
+
+.converter__container__output p {
+  width: 90%;
+  height: 90%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+}
+
+.btn_container {
+  width: 100%;
+  margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn_container button {
+  background-color: #3C91E6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  border-radius: 4px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */
